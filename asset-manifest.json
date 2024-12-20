@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/stay_at_forest/static/css/main.e2f2e9c7.css",
+    "main.js": "/stay_at_forest/static/js/main.7362df7f.js",
+    "static/media/home.jpg": "/stay_at_forest/static/media/home.9ed846de6887c5197ad0.jpg",
+    "static/media/outerresort1.jpg": "/stay_at_forest/static/media/outerresort1.f1604f5f5b7d25e5d790.jpg",
+    "static/media/about1.jpg": "/stay_at_forest/static/media/about1.687370edb57d77e5656d.jpg",
+    "static/media/outer6.jpg": "/stay_at_forest/static/media/outer6.4e2cd96c5e8e8832ed97.jpg",
+    "static/media/about2.jpg": "/stay_at_forest/static/media/about2.2d7c17a7d3207adeb2e6.jpg",
+    "static/media/outerresort3.jpg": "/stay_at_forest/static/media/outerresort3.2d7c17a7d3207adeb2e6.jpg",
+    "static/media/about4.jpg": "/stay_at_forest/static/media/about4.91b011a3eb7110a23c2c.jpg",
+    "static/media/inner1.jpg": "/stay_at_forest/static/media/inner1.010a1fc8feda8d1e9e9c.jpg",
+    "static/media/inner2.jpg": "/stay_at_forest/static/media/inner2.3d72e9338f26d25a0b2a.jpg",
+    "static/media/outer2.jpg": "/stay_at_forest/static/media/outer2.2f32a21813c2142120d4.jpg",
+    "static/media/outer1.jpg": "/stay_at_forest/static/media/outer1.9b2e732693eb24da828c.jpg",
+    "static/media/outer4.jpg": "/stay_at_forest/static/media/outer4.e46bdf886519cc75f1db.jpg",
+    "static/media/outer3.jpg": "/stay_at_forest/static/media/outer3.e0fd50305de96973152e.jpg",
+    "static/media/outer5 .jpg": "/stay_at_forest/static/media/outer5 .3ac80a42e3d77ea3120a.jpg",
+    "static/media/logo.png": "/stay_at_forest/static/media/logo.3fb2f197f3496cde0420.png",
+    "index.html": "/stay_at_forest/index.html",
+    "main.e2f2e9c7.css.map": "/stay_at_forest/static/css/main.e2f2e9c7.css.map",
+    "main.7362df7f.js.map": "/stay_at_forest/static/js/main.7362df7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2f2e9c7.css",
+    "static/js/main.7362df7f.js"
+  ]
+}
