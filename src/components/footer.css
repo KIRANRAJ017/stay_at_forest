@@ -1,9 +1,10 @@
 .footer {
-  background-color: #e6e6e61c;
+  background-color: #ececec1c;
   color: #000000;
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
   font-family: Arial, sans-serif;
   margin-top: 5vh;
+  padding-left: 50px;
 }
 
 .footer-container {
@@ -16,7 +17,6 @@
 /* Footer Sections */
 .footer-section {
   flex: 1 1 200px;
-  min-width: 150px;
 }
 
 .footer-logo {
@@ -89,6 +89,36 @@
 
 .footer-links a:hover {
   text-decoration: underline;
+}
+.form{
+  input, textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 5px;
+  }
+  input{
+    height: 20px;
+  }
+  textarea{
+    height: 50px;
+  }
+}
+.sendbut{
+  background:none;
+  background-color: orange;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+.sendbut:hover{
+  background-color: white;
+  border: 2px solid orange;
+  color: orange;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .footer-container {

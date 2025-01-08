@@ -21,7 +21,8 @@ export default function Gallery () {
         <h1>Explore The Most Beautiful <br/><span className="gal-sub-head">- Places In The World</span></h1>
         <p>
            Every moment is an opportunity to explore,
-           from forest explorations to restful waterfalls 
+           from forest explorations to restful waterfalls,
+           
         </p>
         <button className="explore-button"><Link to='/views'>Explore</Link></button>
       </header>

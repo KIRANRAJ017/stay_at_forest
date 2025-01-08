@@ -9,7 +9,7 @@ import img4 from "../images/outerresort1.jpg"
 import img5 from "../images/outerresort3.jpg"
 import img6 from "../images/home.jpg"
 import Footer from "./footer"
-import Navbar from "./navbar";
+import logo from "../images/view-logo.jpg"
 
 
 export default function Gallery () {
@@ -19,6 +19,11 @@ export default function Gallery () {
   return (
     <>
     <div className="container">
+      <div className="view-navbar-content">
+          <a href="/" className="navbar-logo">
+            <img src={logo} alt="The Relax Beach Logo" className="logo" />
+          </a>
+      </div>
       <header className="header">
         <h1>Explore The Most Beautiful <br/>- Places In The World<span className='abt-subheadline'></span></h1>
         <h4>

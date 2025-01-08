@@ -1,6 +1,26 @@
+import { useRef } from "react";
 import "./footer.css"
+import emailjs from '@emailjs/browser';
 
 export default function Footer(){
+const form = useRef();
+
+const sendEmail = (e) => {
+e.preventDefault();
+
+emailjs
+  .sendForm('service_m1ao48g', 'template_elrr4ha', form.current, {
+    publicKey: 'njghrS0I7tVf6UBxN',
+  })
+  .then(
+    () => {
+      console.log('SUCCESS!');
+    },
+    (error) => {
+      console.log('FAILED...', error.text);
+    },
+  );
+};
     return(
       <footer className="footer">
       <div className="footer-container">
@@ -8,7 +28,7 @@ export default function Footer(){
         <div className="footer-section">
           <h2 className="footer-logo">Stay at forest .</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vero.
+            Contact us to get a wonderfull exploration
           </p>
           <div className="social-icons">
             <a href="#" aria-label="Facebook">
@@ -29,32 +49,31 @@ export default function Footer(){
         {/* Get In Touch Section */}
         <div className="footer-section">
           <h3>Get In Touch</h3>
-          <p>123 Abcde Road, Hudson</p>
-          <p>example@gmail.com</p>
-          <p>+123 456 7890</p>
-          <p>07:00 AM - 10:00 PM</p>
+          <p>Magic movement jungle resort, Kanthaloor</p>
+          <p>Idukki, kerala</p>
+          <p>7.00 am to 10.00 pm</p>
         </div>
 
         {/* Contact Section */}
         <div className="footer-section">
           <h3>Contact</h3>
           <ul>
-            <li><a href="#">Email Us</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">How We Work</a></li>
+            <li><a href="mailto:stayatmudhouse@gmail.com">stayatmudhouse@gmail.com</a></li>
+            <li>9188211822</li>
           </ul>
         </div>
 
         {/* Support Section */}
         <div className="footer-section">
           <h3>Support</h3>
-          <ul>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">Consultation</a></li>
-            <li><a href="#">Visit Us</a></li>
-          </ul>
+          <div className="form" >
+            <form ref={form} onSubmit={sendEmail}>
+              <input type="text" name="from_name" placeholder="Name" className="input"/><br/><br/>
+              <input type="email" name="from_email" placeholder="E-mail" className="input" /><br/><br/>
+              <textarea  name="message" placeholder="Message" className="textarea"/><br/>
+              <button type="submit" value="Send" className="sendbut">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
 
