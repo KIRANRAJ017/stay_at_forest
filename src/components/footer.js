@@ -80,10 +80,6 @@ emailjs
       {/* Copyright Section */}
       <div className="footer-bottom">
         <p>© 2024 All rights reserved</p>
-        <div className="footer-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms & Services</a>
-        </div>
       </div>
     </footer>
   );
