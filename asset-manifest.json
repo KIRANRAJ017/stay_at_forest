@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stay_at_forest/static/css/main.089a5598.css",
-    "main.js": "/stay_at_forest/static/js/main.e414ba16.js",
+    "main.css": "/stay_at_forest/static/css/main.2e76e3c8.css",
+    "main.js": "/stay_at_forest/static/js/main.309e8cd8.js",
     "static/media/home.jpg": "/stay_at_forest/static/media/home.9ed846de6887c5197ad0.jpg",
     "static/media/outerresort1.jpg": "/stay_at_forest/static/media/outerresort1.f1604f5f5b7d25e5d790.jpg",
     "static/media/about1.jpg": "/stay_at_forest/static/media/about1.687370edb57d77e5656d.jpg",
@@ -18,12 +18,13 @@
     "static/media/outer3.jpg": "/stay_at_forest/static/media/outer3.e0fd50305de96973152e.jpg",
     "static/media/outer5 .jpg": "/stay_at_forest/static/media/outer5 .3ac80a42e3d77ea3120a.jpg",
     "static/media/logo.png": "/stay_at_forest/static/media/logo.3fb2f197f3496cde0420.png",
+    "static/media/view-logo.jpg": "/stay_at_forest/static/media/view-logo.c7d14e006ab1316ab4e2.jpg",
     "index.html": "/stay_at_forest/index.html",
-    "main.089a5598.css.map": "/stay_at_forest/static/css/main.089a5598.css.map",
-    "main.e414ba16.js.map": "/stay_at_forest/static/js/main.e414ba16.js.map"
+    "main.2e76e3c8.css.map": "/stay_at_forest/static/css/main.2e76e3c8.css.map",
+    "main.309e8cd8.js.map": "/stay_at_forest/static/js/main.309e8cd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.089a5598.css",
-    "static/js/main.e414ba16.js"
+    "static/css/main.2e76e3c8.css",
+    "static/js/main.309e8cd8.js"
   ]
 }
