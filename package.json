@@ -1,5 +1,5 @@
 {
-  "homepage": "https://KIRANRAJ017.github.io/stay_at_forest",
+  "homepage": "https://kiranraj017.github.io/stay_at_forest",
   "name": "stay_at_forest",
   "version": "0.1.0",
   "private": true,
@@ -46,9 +46,9 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KIRANRAJ017/stay_at_forest.git"
+    "url": "git+https://github.com/kiranraj017/stay_at_forest.git"
   },
   "bugs": {
-    "url": "https://github.com/KIRANRAJ017/stay_at_forest/issues"
+    "url": "https://github.com/kiranraj017/stay_at_forest/issues"
   }
 }
